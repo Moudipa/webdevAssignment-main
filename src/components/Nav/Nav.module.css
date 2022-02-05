@@ -18,7 +18,8 @@
 .student__navigation__layout__children__container {
   height: auto;
   width: 90%;
-  margin: 90px auto 20px auto;
+  margin: 100px auto 20px auto;
+  padding: auto;
 }
 
 .navigation__layout__top__navigation__container {
@@ -30,19 +31,19 @@
 }
 
 .navbar__container{
-    width: calc(100% - 60px);
-    height: 70px;
+    width: calc(100% - 40px);
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
-    background: linear-gradient(102deg, #04aefb 0%, #135ee9 100%);
+    background: linear-gradient(102deg, #076e3b 0%, #0a6140 100%);
 }
 
 .navigation__container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
     padding: 0 16px;
 }
 
@@ -50,7 +51,7 @@
     display: flex;
     margin: 0 16px;
     color: rgb(231, 231, 231);
-    font-size: 14px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -58,14 +59,13 @@
     display: flex;
     margin: 0 16px;
     color: white;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .logo__container p{
-    font-family: Cambria;
-    font-size: 30px;
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: rgb(209, 224, 183);
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 3px 3px 1px #000000;
 }

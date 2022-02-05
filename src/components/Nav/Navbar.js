@@ -19,13 +19,12 @@ class Navbar extends Component {
       <div className={NavStyle.navbar__container}>
         <div className={NavStyle.logo__container}>
           <p onClick={() => this.handleNavigation(onLogoClickRoute)}>
-            EasyPharm
+            Vayu
           </p>
         </div>
         <div className={NavStyle.navigation__container}>
           {isUserLoggedIn && (
             <>
-              {" "}
               <div onClick={() => this.handleNavigation("/products")}>
                 Order Medicines
               </div>
